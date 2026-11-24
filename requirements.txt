@@ -1,0 +1,20 @@
+# SentiScope / Analyzer — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# --- Core (required by app.py) ---
+gradio>=5,<6
+pandas
+numpy
+# Saved scikit-learn pipelines should be loaded with the version used for training.
+scikit-learn==1.6.1
+joblib
+matplotlib
+plotly>=5.0
+scipy
+
+# AI Model explanations
+lime
+shap
+
+# Optional: Spark batch processing (also requires Java)
+# pyspark
